@@ -1,0 +1,99 @@
+
+
+body {
+  font-size : 35px;
+  font-family : arial;
+  /* doesn't work: */
+  /* font : arial; */
+  /* fill : #000000; */
+  /* /\* made change here, formerly 0.3 for opacity *\/ */
+  /* opacity : 0.15; */
+}
+
+/* svg polyline {  */
+/*     stroke : red; */
+/*     stroke-width : 5; */
+/* } */
+
+/* svg line {  */
+/*     stroke : red; */
+/* } */
+
+svg { 
+    font : arial;
+}
+
+.axis text {
+    font-family: arial;
+    font-size: 25px;
+}
+
+#volume {
+    font-family: courier;
+    font-size: 50px;
+    /* value: 2345; */
+}
+
+.david { 
+    shape-rendering : crispEdges;
+    stroke : black;
+    fill : none;
+}
+
+.david text { 
+    font-family : courier;
+    fill : blue;
+}
+
+#mom { 
+   font-family : courier;
+   fill : blue;
+}
+
+
+#blah {
+  stroke : red;
+  stroke-width : 5;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+
+.grid path {
+      stroke-width: 0;
+}
+
+
+
+
+
+
+/* .ivcont.info { */
+/*   width : 250px; */
+/*   float : left; */
+/*   margin-left : 20px; */
+/*   font-family : Helvetica, Arial; */
+/*   font-size : 19px; */
+/*   color : black; */
+/* } */
+
+/* .ivcont.info h2 { */
+/*   padding : 0; */
+/* } */
+
+/* .infected { */
+/* /\* formerly #ff6600 *\/ */
+/*   background : #0c8b96; */
+/* } */
+
+/* .uninfected { */
+/* /\* formerly #2C7BB6 *\/ */
+/*   background : #9c8b26; */
+/* } */
+
+/* .legendColorBox { */
+/*   width : 2em; */
+/*   height : 2em; */
+/* } */
